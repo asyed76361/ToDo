@@ -1,0 +1,99 @@
+.table {
+  border: 1px solid var(--q-table-border);
+  font-family: "Lato", sans-serif;
+  border-radius: 8px;
+  display: block;
+}
+
+.q-table__container .q-table__middle table thead tr th {
+  line-height: 15.6px;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  background-color: var(--q-white);
+
+  color: var(--q-text-heading);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.q-table__container .q-table__middle table tbody tr td {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 12px;
+  line-height: 14.4px;
+  color: var(--q-text-heading);
+}
+.q-table__container .q-table__middle table tbody tr td a {
+  font-size: 12px;
+  line-height: 14.4px;
+  color: var(--q-text-heading);
+  text-decoration: none;
+}
+
+.q-checkbox .q-checkbox__inner--truthy .q-checkbox__bg {
+  background: var(--q-header-background);
+}
+.q-checkbox .q-checkbox__inner--falsy .q-checkbox__bg {
+  background: var(--q-white);
+}
+.q-checkbox .q-checkbox__inner--truthy {
+  color: var(--q-header-background);
+}
+
+.icons {
+  width: 12px;
+  height: 15px;
+}
+.icon {
+  width: 8.33px;
+  height: 5px;
+}
+.btn-text {
+  text-transform: capitalize;
+  color: var(--q-text-active);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.q-table__container .q-table__middle table tbody tr td {
+  background: var(--q-white);
+}
+
+.my-sticky-header-table .q-table__top {
+  background-color: var(--q-white);
+  position: sticky;
+  z-index: 1;
+  top: 0;
+}
+
+/* .my-sticky-header-table .q-table__middle .q-table thead tr {
+  background-color: var(--q-white);
+  position: sticky!important;
+  z-index: 1;
+} */
+
+.my-sticky-header-table .q-table__bottom {
+  background-color: var(--q-white);
+  position: sticky;
+  z-index: 1;
+  bottom: 0;
+}
+
+.q-table__container > .q-table__middle table thead tr th {
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+  background-color: var(--q-white);
+}
+/* 
+div div.q-menu {
+  max-height: 400px !important;
+  height: 100%;
+  max-width: 200px!important;
+  width: 100%;
+} */

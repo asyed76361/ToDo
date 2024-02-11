@@ -1,0 +1,28 @@
+.all-sources-title {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.2px;
+  color: var(--q-text-heading);
+}
+.create-source-button {
+  font-family: "Lato", sans-serif;
+  width: 127px;
+  height: 34px;
+  line-height: 16px;
+  border-radius: 6px;
+  background-color: var(--q-btn-bg);
+  color: var(--q-btn-text);
+  display: flex;
+  box-shadow: none;
+  align-items: center;
+  justify-content: center;
+}
+.create-source-button-text {
+  text-transform: capitalize;
+}
+.button-icon {
+  width: 13.37px;
+  height: 13px;
+  margin-right: 8px;
+}
